@@ -17,7 +17,11 @@
     h1.innerHTML="<marquee>HALO SAYA NOVITA</marquee>"
 
     const h2= document.createElement('h2')
-    h2.innerHTML="<marquee>Senang Bertemu Dengan Kalin</marquee>"
+    h2.innerHTML="<marquee>Senang Bertemu Dengan Kalian</marquee>"
+
+    const bold=document.createElement('b')
+    body.innerHTML="<marquee>LET'S GO BRO</marquee>"
 
     body.append(h1)
     body.append(h2)
+    body.append(bold)
